@@ -2963,7 +2963,8 @@ table th[class*="col-"] {
 .table>thead>tr.warning>th,
 .table>tbody>tr.warning>th,
 .table>tfoot>tr.warning>th {
-    background-color: #ff8800
+    background-color: #ff8800;
+    color:#fff;
 }
 
 .table-hover>tbody>tr>td.warning:hover,
@@ -7994,3 +7995,6 @@ a.list-group-item-danger.active:focus {
 .jumbotron h6 {
     color: #fff
 }
+
+/* CUSTOM */
+.success a, .danger a, .warning a {color:#fff;}
