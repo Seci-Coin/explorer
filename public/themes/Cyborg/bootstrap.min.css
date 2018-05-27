@@ -7997,4 +7997,4 @@ a.list-group-item-danger.active:focus {
 }
 
 /* CUSTOM */
-.success a, .danger a, .warning a {color:#fff;}
+.success a, .danger a, .warning a {color:#fff !important;}
